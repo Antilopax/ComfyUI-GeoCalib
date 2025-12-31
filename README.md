@@ -25,7 +25,7 @@ This node allows you to extract the **Roll**, **Pitch**, and **Vertical Field of
 1.  Navigate to your ComfyUI `custom_nodes` directory.
 2.  Clone this repository:
     ```bash
-    git clone [https://github.com/Antilopax/ComfyUI-GeoCalib.git](https://github.com/Antilopax/ComfyUI-GeoCalib.git)
+    git clone https://github.com/Antilopax/ComfyUI-GeoCalib.git
     ```
 3.  Install dependencies:
     ```bash
@@ -67,5 +67,6 @@ This node is a wrapper around the official implementation of **GeoCalib**.
 **Paper:** [GeoCalib: Learning Single-image Calibration with Geometric Optimization (ECCV 2024)](https://arxiv.org/abs/2402.12345)  
 **Original Repo:** [cvg/GeoCalib](https://github.com/cvg/GeoCalib)  
 **Authors:** Alexander Vakhitov, Luis Keser, Gabriel Zeller, Dannis G. T. H., Friedrich Fraundorfer.
+
 
 Please cite the original paper if you use this for research.
