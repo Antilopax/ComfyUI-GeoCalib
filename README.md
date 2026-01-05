@@ -19,24 +19,7 @@ This node allows you to extract the **Roll**, **Pitch**, and **Vertical Field of
 
 ## Installation
 
-### Method 1: ComfyUI Manager (Recommended)
-1.  Open ComfyUI Manager > Custom Nodes
-2.  Search for `GeoCalib`.
-3.  Click **Install**.
-4.  Restart ComfyUI when prompted.
-
-### Method 2: Manual Installation
-1.  Navigate to your ComfyUI `custom_nodes` directory.
-2.  Clone this repository:
-    ```bash
-    git clone https://github.com/Antilopax/ComfyUI-GeoCalib.git
-    ```
-3.  Install dependencies:
-    ```bash
-    cd ComfyUI-GeoCalib
-    pip install -r requirements.txt
-    ```
-    *Note: This will install the `geocalib` library directly from its GitHub repository.*
+Install it as usual though the ComfyUI Manager. If its not listed yet you can use its "Install via Git URL" Feature.  
 
 ## Usage
 
@@ -76,6 +59,7 @@ This node is a wrapper around the official implementation of **GeoCalib**.
 
 
 Please cite the original paper if you use this for research.
+
 
 
 
