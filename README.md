@@ -4,8 +4,10 @@ A Custom Node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) that impl
 
 This node allows you to extract the **Roll**, **Pitch**, and **Vertical Field of View (vFoV)** from any input image or video frame. It uses the Geometric Calibration model presented at ECCV 2024.
 
-![Workflow Example](placeholder_for_your_screenshot.png)
-*(Replace this text or the link above with your actual screenshot)*
+![Workflow Example](assets/GeoCalib1.png)
+![Workflow Example](assets/GeoCalib2.png)
+
+
 
 ## Features
 * **Automatic Calibration:** Estimates camera parameters from a single image.
@@ -35,6 +37,8 @@ This node allows you to extract the **Roll**, **Pitch**, and **Vertical Field of
     *Note: This will install the `geocalib` library directly from its GitHub repository.*
 
 ## Usage
+
+[Download Example Workflow](workflows/GeoCalib.json)
 
 1.  Add the node via `Add Node > GeoCalib > GeoCalib Estimator`.
 2.  Connect an **IMAGE** input.
@@ -70,3 +74,4 @@ This node is a wrapper around the official implementation of **GeoCalib**.
 
 
 Please cite the original paper if you use this for research.
+
