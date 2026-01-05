@@ -1,1 +1,1 @@
-git+https://github.com/cvg/GeoCalib.git
+git+https://github.com/Antilopax/GeoCalib.git
